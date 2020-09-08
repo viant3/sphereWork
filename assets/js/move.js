@@ -10,6 +10,5 @@ $(".move-area").mousemove(function(event) {
       '-ms-transform': 'rotate(' + rot + 'deg)',
       'transform': 'rotate(' + rot + 'deg)'
     });
-    // eye.style.transform = `rotate(${rot}deg)`
   });
 
