@@ -34,22 +34,23 @@ body {
   flex-wrap: wrap;
   align-items: top;
   justify-content: center;
-  
- 
- 
 
 }
-.face {
-  /* display: inline-block; */
-  opacity: .8;
-  width: 100%;
-  height: 100%;
-  /* border-radius: 50%; */
+
+
+.imageDiv {
+ 
   background-image: url(../images/eyes.gif);
   background-repeat: no-repeat;
-  position: relative;
+  box-shadow:20px 20px 20px 20px #000000 inset;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  height: 650px;
+  width: 850px;
   z-index: 10;
-}
+  }
+
 .ball {
     display: inline-flex;
     width: 100%;
@@ -146,46 +147,7 @@ body {
     z-index: 1;
   }
 
-/* 
-  .ball .eight {
-      width: 110px;
-      height: 110px;
-      margin: 30%;
-      background: white;
-      border-radius: 50%;
-      transform: translateX(68px) translateY(-60px) skewX(15deg) skewY(2deg);
-      position: absolute;
-  } */
-  
-/* .ball .eight:before {
-    content: "8";
-    display: block;
-    position: absolute;
-    text-align: center;
-    height: 80px;
-    width: 100px;
-    left: 50px;
-    margin-left: -40px;
-    top: 44px;
-    margin-top: -40px;
-    color: black;
-    font-family: Arial;
-    font-size: 90px;
-    line-height: 104px;
-} */
 
-  /* .ball .shadow {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-  -webkit-transform: rotateX(90deg) translateZ(-150px);
-  -moz-transform: rotateX(90deg) translateZ(-150px);
-  -ms-transform: rotateX(90deg) translateZ(-150px);
-  -o-transform: rotateX(90deg) translateZ(-150px);
-  transform: rotateX(90deg) translateZ(-150px);
-  z-index: 1;
-  } */
   .stage {
     width: 95px;
     height: 95px;
@@ -213,6 +175,8 @@ body {
     margin-right: 43px;
    
   }
+
+
   
   .eyeContainer {
     margin: 0 auto;
@@ -234,12 +198,3 @@ z-index: 1;
 opacity: 1;
 color: white;
 }
-
-/* .hov {
-  height: 500px;
-  width: 500px;
-  bottom: 0%;
-  left: 0%;
-}
-.hov:hover {
-} */
