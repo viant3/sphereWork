@@ -52,11 +52,11 @@ body {
   }
 
 .ball {
-    display: inline-flex;
+    /* display: inline-flex; */
     width: 100%;
     height: 100%;
-   
-    border-radius: 50%;
+  
+    border-radius: 80%;
     position: relative;
     background: radial-gradient(circle at 50% 50%, #c7c2c2f5, #bfc0b1 66%, #9b5050 100%);
   opacity: .9;
@@ -99,7 +99,8 @@ body {
   .iris {
     width: 18%;
     height: 18%;
-    padding: 7%;
+    padding: 8%;
+  
     opacity: .9;
     background: radial-gradient(circle at 50% 50%, #6e6e47 0%, #82886e 30%, #5d5e5c6b 100%);
     border-radius:  100%;
@@ -148,12 +149,12 @@ body {
 
 
   .stage {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
 
     padding-left: 20px;
-    padding-right: 38px;
+    padding-right: 28px;
     margin-top: 25%;
     /* margin: 0 auto; */
     -webkit-perspective: 1200px;
@@ -172,6 +173,7 @@ body {
 
   .moveLeft {
     margin-right: 43px;
+   
    
   }
 
