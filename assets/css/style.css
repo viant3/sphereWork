@@ -49,6 +49,7 @@ body {
   height: 650px;
   width: 850px;
   z-index: 10;
+  /* opacity: .7; */
   }
 
 .ball {
@@ -58,7 +59,7 @@ body {
 
     border-radius: 80%;
     position: relative;
-    background: radial-gradient(circle at 50% 50%, #c7c2c2f5, #bfc0b1 66%, #9b5050 100%);
+    background: radial-gradient(circle at 50% 50%, #c7c2c2f5, #707070 66%, #9b5050 100%);
   opacity: .9;
   z-index: 1;
   }
@@ -181,7 +182,8 @@ body {
   
   .eyeContainer {
     margin: 0 auto;
-    margin-left: 550px;
+    margin-left: 36.2%;
+    /* margin-left: 550px; */
     margin-top: 6.3%;
     position: relative;
 z-index: 1;
