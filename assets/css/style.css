@@ -66,15 +66,15 @@ height: 650px;
 
   .skullDiv {
     border-radius: 35%;
-     background-image: url(../images/skull.jpg);
+     background-image: url(../images/skull2.gif);
      background-repeat: no-repeat;
-     box-shadow:20px 20px 20px 20px #000000 inset;
+     /* box-shadow:20px 20px 20px 20px #000000 inset; */
      position: absolute;
      text-align: center;
      margin: 0 auto;
      height: 650px;
      width: 850px;
-     z-index: 0;
+     z-index: 5;
      opacity: .91;
      }
 
