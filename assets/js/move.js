@@ -12,3 +12,8 @@ $(".move-area").mousemove(function(event) {
     });
   });
 
+  jQuery(document).ready(function(){
+    jQuery('#hideshow').on('click', function(event) {        
+        jQuery('#content').toggle('show');
+    });
+})
