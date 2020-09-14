@@ -53,12 +53,16 @@ height: 650px;
   }
 
   #hideshow {
-   bottom: 20%;
+   bottom: 25%;
    left: 45%;
    text-align: center;
     position: absolute;
     z-index: 15;
   }
+
+  /* #content {
+    transition: opacity 2s;
+  } */
 
   .skullDiv {
     border-radius: 35%;
@@ -71,7 +75,7 @@ height: 650px;
      height: 650px;
      width: 850px;
      z-index: 0;
-     opacity: .93;
+     opacity: .91;
      }
 
 .ball {
@@ -219,7 +223,11 @@ z-index: 1;
  
   opacity: 0;
     color: white;
-    bottom: 0;
+    bottom: 7%;
+    left: 40%;
+    
+     position: absolute;
+     z-index: 15;
 
   }
 
