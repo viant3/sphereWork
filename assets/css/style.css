@@ -86,7 +86,7 @@ height: 650px;
 margin: 0 auto;
     border-radius: 80%;
     position: relative;
-    background: radial-gradient(circle at 50% 50%, #c7c2c2f5, #4b4b4a 66%, #9b5050 100%);
+    background: radial-gradient(circle at 50% 50%, #c7c2c2f5, #4b4b4a 66%, #470303 80%);
   opacity: .78;
   z-index: 1;
   }
